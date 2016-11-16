@@ -18,11 +18,11 @@ Topics to cover here:
 * functions of the standard library
 * list and dict comprehensions
 * ecpeption handling: try raise
-
-
 * decorators
 * numpy
 * tensorflow
+* None
+* multiple return values?
 
 Assorted:
 
