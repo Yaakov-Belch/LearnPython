@@ -4,7 +4,7 @@
 ## Hello world
 *The `print` function needs brackets and automatically adds a newline character.*
 
-    print "Hello world."
+    print("Hello world.")
 
 *Execute a script by passing it to `python3`:*
 
