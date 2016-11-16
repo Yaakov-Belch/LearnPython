@@ -18,14 +18,14 @@ Topics to cover here:
 * functions of the standard library
 * list and dict comprehensions
 * ecpeption handling: try raise
-* decorators
 * numpy
 * tensorflow
 * None
-* multiple return values?
+* unpacking assignment, multiple return values
 
 Assorted:
 
+* decorators
 * coroutines yield pass await generators future
 * scoping: global nonlocal
 * multi-line strings
