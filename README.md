@@ -1,18 +1,25 @@
 # LearnPython
 
-You already know scripting languages well (e.g. JavaScript, Perl).  
-You want a focused path to learn python: How does it connect to what you already know and what's new to you.
+I already know scripting (Perl, JavaScript) that arguably have a lot in common with Python.
 
-* [BabyPython](BabyPython.md): The syntax for what you already know; context for what follows...
+My first step is to explore what I *already know and understand:* Just learn the right syntax for
+the pieces of Python that are shared with other languages.  In this step, I ignore features that
+are different *on purpose:* They will be covered in the second step.
 
-Topics to cover:
+* [BabyPython](BabyPython.md): The language for basic algorithms
+* [Generators](Generators.md): Generators: a lazy sequence of values
+* [Async](Async.md): Async functions for efficient parallel communication
+
+Topics to cover here:
 
 * regular expressions
 * flow control: break continue
-* OP, class definitions
-* sections of the standard library
+* OOP, class definitions
+* functions of the standard library
 * list and dict comprehensions
 * ecpeption handling: try raise
+
+
 * decorators
 * numpy
 * tensorflow
