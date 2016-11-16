@@ -7,7 +7,7 @@
     echo 'print("Hello world.")' > hello.py
     python3 hello.py
     
-## Many statements, semicolons
+## Many statements; semicolons
 *No semicolon is needed at the end of a line.*
 
     print("Hello world.")
