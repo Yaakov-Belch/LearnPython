@@ -2,7 +2,11 @@
 *The syntax for what you already know from other languages.*
 
 ## Hello world
-*`print` needs brackets and automatically adds a newline character.*
+*The `print` function needs brackets and automatically adds a newline character.*
+
+    print "Hello world."
+
+*Execute a script by passing it to `python3`:*
 
     echo 'print("Hello world.")' > hello.py
     python3 hello.py
