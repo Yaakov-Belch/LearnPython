@@ -10,8 +10,8 @@ Topics to cover:
 * regular expressions
 * flow control: break continue
 * OP, class definitions
-* sctions of the standard library
-* lst and dict comprehensions
+* sections of the standard library
+* list and dict comprehensions
 * ecpeption handling: try raise
 * decorators
 * numpy
@@ -19,16 +19,18 @@ Topics to cover:
 
 Assorted:
 
+* coroutines yield pass await generators future
 * scoping: global nonlocal
 * multi-line strings
 * named arguments
 * range 1..10
 * array slices[::]
-* coroutines yield pass
 * assert
 * del
 * with
 * return
+* versions: puthon2/3 implementations
+* string/tuple/list slicing [start:end:stride]
 
 Are there such features?
 
