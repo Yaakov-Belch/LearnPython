@@ -38,6 +38,7 @@ Assorted:
 * return
 * versions: puthon2/3 implementations
 * string/tuple/list slicing [start:end:stride]
+* namedtuple https://docs.python.org/dev/library/collections.html#collections.namedtuple
 
 Are there such features?
 
