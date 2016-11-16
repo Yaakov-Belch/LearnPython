@@ -33,3 +33,18 @@ by `next(g)`:
     
     print(sum(squared(range(10))))  # 285 = 0^2+..+9^2
  
+## yield from
+
+Mostly, `yield from g` is a shortcut of `for v in g: yield v`.
+However, it opens more channels to pass values through:
+
+* If the generator function returns a value, it can be captured as `v=yield from g`.
+* Values sent to a generator will transparently be delegated to the sub-generator.
+* Exceptions are passed along transparently.
+
+## Coroutines
+
+Technically, `yield` is a two-way data connection: Any data sent to a generator 
+is available as a return value of `yield`.  Coroutines can be used to manage 
+asynchronous communication.  However, I find `async` the more appropriate syntax
+for this (even though, under the hood, it is implemented with generators).
