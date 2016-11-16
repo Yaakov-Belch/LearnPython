@@ -41,7 +41,7 @@
 
 ## JSON-like data: numbers, strings, lists, dicts
 
-    data=[1,"hello",'world',{'key': 'value'}]
+    data=[1, "hello", 'world', {'key': 'value'}]
     print(data[3]['key'])
     
     # variable keys in dict literals
