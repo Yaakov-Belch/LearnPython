@@ -1,4 +1,4 @@
-# A generator lazily produces a sequence of numbers:
+# A generator lazily produces a sequence of values:
 
     def countdown(n):
         while n>0:
