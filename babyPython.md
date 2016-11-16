@@ -68,20 +68,9 @@
     
     print(factorial(5))      # 1*2*3*4*5=120
 
-## Use modules/packages
-
-    import math           # Use math.pi, math.factoriral etc.
-    from math import pi, factorial  # Use just pi, factorial.
-
-## Define modules/packages
-
-    # main file:
-    import factorial
-    
-    print(factorial.recursive(5))  # 120
-    print(factorial.loop(5))       # 120
-
-    # file: factoriral.py
+## Define a module
+*This is factorial.py: top-level names will be exported.*
+  
     def recursive(n):
         if n==0: return 1
         else:    return n*recursive(n-1)
@@ -91,3 +80,15 @@
         for factor in range(1,n+1): product *= factor
         return product
 
+
+## Use a module
+
+    import factorial
+    
+    print(factorial.recursive(5))  # 120
+    print(factorial.loop(5))       # 120
+    
+    from factorial import recursive, loop
+    
+    print(recursive(5))  # 120
+    print(loop(5))       # 120
