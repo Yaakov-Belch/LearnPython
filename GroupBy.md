@@ -9,3 +9,6 @@ Note: g becomes invalid in the next loop: need to convert it to a list
 for later use.  But can loop over it.
 
 Note: need to sort data before itertools.groupby
+
+itertools.groupby
+pandas.DataFrame.groupby
