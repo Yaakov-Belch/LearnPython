@@ -1,10 +1,5 @@
 # Async functions
 
-Python's `async def` is similar but not identical to JavaScript's `async function`.
-Python returns a generator object that can be used only once, not a promise that can 
-be used as a meaningful data structure on its own.  You can just `await` the result
-of an `async` function.
-
     import asyncio
 
     async def slow_operation(n):
@@ -19,3 +14,9 @@ of an `async` function.
         
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
+
+In Python, `async` functions return generators. They can be `await`ed only once.
+
+In JavaScript, `async` functions return promises. To me, this seems more generally
+usable: Promises can be shared consistently, there are many promise-based algorithms and 
+abstractions.
