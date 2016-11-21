@@ -24,13 +24,14 @@ Topics to cover here:
 * unpacking assignment, multiple return values
 
 Data libraries
-* [Pandas](http://pandas.pydata.org/)
-* [SciPy](http://www.scipy.org/)
 * [NumPy](http://www.numpy.org/)
+* [Pandas](http://pandas.pydata.org/)
 * [StatsModels](http://statsmodels.sourceforge.net/)
+* [SciPy](http://www.scipy.org/)
 * [scikit-learn](http://scikit-learn.org/)
 * [Jupyter](http://jupyter.org/)
 * [matplotlib](http://matplotlib.org/)
+* [tensorflow](https://www.tensorflow.org/)
 
 Assorted:
 
