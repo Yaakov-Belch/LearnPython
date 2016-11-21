@@ -45,6 +45,10 @@ Are there such features?
 
 * destructing assignment/unpacking assignment // arguments
 
+Research these topics:
+
+* It's a Python convention to consider variables that start with an
+  underscore to be private.
 
 References:
 
