@@ -69,6 +69,7 @@ Research these topics:
 
 References:
 * [Tutuorial](https://docs.python.org/3/tutorial/)
+* [Numpy tutorial](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)
 * [Language reference](https://docs.python.org/3/reference/index.html)
 * [Library reference](https://docs.python.org/3/library/)
 * [Style guide](https://www.python.org/dev/peps/pep-0008/)
