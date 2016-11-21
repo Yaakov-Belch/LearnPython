@@ -23,6 +23,15 @@ Topics to cover here:
 * None
 * unpacking assignment, multiple return values
 
+Data libraries
+* [Pandas](http://pandas.pydata.org/)
+* [SciPy](http://www.scipy.org/)
+* [NumPy](http://www.numpy.org/)
+* [StatsModels](http://statsmodels.sourceforge.net/)
+* [scikit-learn](http://scikit-learn.org/)
+* [Jupyter](http://jupyter.org/)
+* [matplotlib](http://matplotlib.org/)
+
 Assorted:
 
 * decorators
