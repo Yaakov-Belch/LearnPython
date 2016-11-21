@@ -49,6 +49,7 @@ Research these topics:
 
 * It's a Python convention to consider variables that start with an
   underscore to be private.
+ * `vars(obj)` vs. `obj.__dict__` vs. `dir(obj)`: Syntax, local vars vs. inheritance chain; k/v vs. keys
 
 References:
 
