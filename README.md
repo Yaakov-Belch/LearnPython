@@ -68,7 +68,7 @@ Research these topics:
 * special-purpose extensions: numpy, pandas, tensorflow...
 
 References:
-
+* [Tutuorial](https://docs.python.org/3/tutorial/)
 * [Language reference](https://docs.python.org/3/reference/index.html)
 * [Library reference](https://docs.python.org/3/library/)
 * [Style guide](https://www.python.org/dev/peps/pep-0008/)
