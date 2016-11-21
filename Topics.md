@@ -1,6 +1,9 @@
 # Questions
 
 ## How do I convert a string to a number?
+
+    int('123'), float('1.23')
+
 Python does not automatically convert strings to numbers.  
 This is less convenient than perl on receiving data input.
 But it is more correct and precise in many cases:
@@ -8,10 +11,12 @@ But it is more correct and precise in many cases:
 * Detect input format errors early.
 * Correctly sort, add, multiply numbers vs. strings
 
-Verify that mixed number/string operations (compare, sort, 
+Verified that mixed number/string operations (compare, sort, 
 add) raise errors.
 
 ### How do I convert a number to a string?
+
+    str(123.45)
 
 ## How should I represent data in python programs?
 
