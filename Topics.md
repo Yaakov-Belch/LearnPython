@@ -1,4 +1,47 @@
-Topics to cover here:
+# Questions
+
+## How do I convert a string to a number?
+Python does not automatically convert strings to numbers.  
+This is less convenient than perl on receiving data input.
+But it is more correct and precise in many cases:
+
+* Detect input format errors early.
+* Correctly sort, add, multiply numbers vs. strings
+
+Verify that mixed number/string operations (compare, sort, 
+add) raise errors.
+
+### How do I convert a number to a string?
+
+## How should I represent data in python programs?
+
+**Baby python:** You can express almost all algorithms
+with the basic JSON structures: numbers, strings, lists,
+and dicts (dictionaries).
+
+**Python types:** Python provides more explicit types
+that make your programs clearer --- and make it easier
+to do the right thing right: `None`, `True`, `False`, 
+sets, tuples, objects.
+
+**Lazy sequences (iterables and iterators):** Python 
+extensively supports iterables.  You can loop over 
+sequences without allocating memory for them.  Express 
+algorithms with infinite sequences and use only as much 
+of them as needed.
+
+**NumPy arrays:** Large, multi-dimensional arrays of 
+numbers can be stored efficiently and compactly as numpy
+arrays.
+
+## How do I use regular expressions?
+
+* check match
+* extract matching groups
+* replace matches by strings or function results
+* extended regexp features
+
+# Topics
 
 * regular expressions
 * flow control: break continue
