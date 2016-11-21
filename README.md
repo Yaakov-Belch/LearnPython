@@ -51,6 +51,12 @@ Research these topics:
   underscore to be private.
  * `vars(obj)` vs. `obj.__dict__` vs. `dir(obj)`: Syntax, local vars vs. inheritance chain; k/v vs. keys
 
+## Data structures:
+
+* general data structures (JSON: number, string, list, dict); 
+* fine-grained data structures (list vs. tuple); 
+* special-purpose extensions: numpy, pandas, tensorflow...
+
 References:
 
 * [Language reference](https://docs.python.org/3/reference/index.html)
