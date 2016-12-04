@@ -1,3 +1,17 @@
+# Short study plan
+
+* baby python
+  * classes
+* new foundations
+  * convert `int()`, `float()` and `str()` ... reliable comparison, addition
+  * tuples: immutable, hash keys, named tuples
+  * sorting: lexicographic, sort function
+  * itearables, iterators, generators
+* libraries
+  * itertools
+  * regular expressions
+  * file input/output
+
 # Questions
 
 ## How do I convert a string to a number?
