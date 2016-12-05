@@ -1,0 +1,27 @@
+!* python3 sample.py hello world
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+letters[2:5] = ['C', 'D', 'E'] # can even change size of list
+print(letters) # ['a', 'b', 'C', 'D', 'E', 'f', 'g']
+
+a,b=1,1
+for i in range(10): print(a); a, b = b, a+b
+
+
+b=a[:] # copy list
+
+
+print("Hello world"[0:6:2]) # include 0 exclude 6 stride 2: Hlo
+
+# sys.argv
+import sys         # call python3 sample.py hello world
+print(sys.argv)    # prints ['sample.py', 'hello', 'world']
+
+print(13/7, -13/7, 13/-7, -13/-7)     # 1.8.. -1.8.. -1.8.. 1.8
+print(13//7,-13//7, 13//-7, -13//-7)  # 1 -2 -2 1
+print(13%7,-13%7, 13%-7, -13%-7)      # 6 1 -1 -6
+
+print( 'C:\some\name') # two lines: '\n' is newline
+print(r'C:\some\name') # C:\some\name
+
+print(3 * 'un' + 'ium') # unununium
