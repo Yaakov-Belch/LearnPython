@@ -2,7 +2,8 @@
 *The syntax for what you already know from other languages.*
 
 ## Hello world
-*The `print` function needs brackets and automatically adds a newline character.*
+*The `print` function needs brackets and automatically adds a newline
+character.*
 
     print("Hello world.")
 
@@ -84,7 +85,6 @@
         for factor in range(1,n+1): product *= factor
         return product
 
-
 ## Use a module
 
     import factorial
@@ -96,3 +96,15 @@
     
     print(recursive(5))  # 120
     print(loop(5))       # 120
+
+## OOP: create, use, inherit class
+
+    class Foo:
+      def __init__(self, foo, bar): self.foo=foo; self.bar=bar
+      def show(self): print(self.foo, self.bar);
+
+    obj=Foo(123,321); obj.show()
+
+    class FooBar(Foo):
+      def __init__(self,foobar): super().__init__(foobar,foobar)
+      def show(self): print(self.foo)

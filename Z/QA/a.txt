@@ -1,5 +1,12 @@
 !* python3 sample.py hello world
 
+
+scope: read enclosing write local (or global explicitly)
+exceptions; with
+
+enumerate(scores) ==> ((0,scores[0]),(1,scores[1]),...)
+sorted(list, key=lambda x:f(x))
+
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 letters[2:5] = ['C', 'D', 'E'] # can even change size of list
 print(letters) # ['a', 'b', 'C', 'D', 'E', 'f', 'g']
@@ -7,9 +14,7 @@ print(letters) # ['a', 'b', 'C', 'D', 'E', 'f', 'g']
 a,b=1,1
 for i in range(10): print(a); a, b = b, a+b
 
-
 b=a[:] # copy list
-
 
 print("Hello world"[0:6:2]) # include 0 exclude 6 stride 2: Hlo
 
@@ -25,3 +30,7 @@ print( 'C:\some\name') # two lines: '\n' is newline
 print(r'C:\some\name') # C:\some\name
 
 print(3 * 'un' + 'ium') # unununium
+
+"""
+Multi-line strings
+"""
